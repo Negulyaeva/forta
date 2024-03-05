@@ -1,0 +1,62 @@
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const formatDate = date => new Date(date).toLocaleDateString();
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+89,60,59,48,54,86,65,96,51,57 / 78
+const greet = name => `Hello, ${name}!`;
+17,89,62,81,98,76,81,11,89,13,25,24,70,1 / true
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+orange
+
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+kiwi
+
+const getUniqueValues = array => [...new Set(array)];
+54,79,89,33,22,22,75,76,25,24,49,6,46,30,5,13,49,94,51,15,89,54,44,21,59,63,63,9,44,3,69,4,90,83,9,83,86,25,75,11,6,15,22,29,95,27,57,31,1,11,65,27,77,97,4,31,89,55,0,75,16,7,77,32,38,1,72,12,88,75,86,32,93,23,4,34,41,96,41,87,16,29,93,85,14,86,65,55 - 88
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+console.log(getRandomString());
+apple
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const squareRoot = num => Math.sqrt(num);
+const sum = (a, b) => a + b;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+3 + 44
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+orange
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+function addNumbers(a, b) { return a + b; }
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+false + orange
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+false - true
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+17,77,9,45,89,17,15,20,35,19,47,95 - 13
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const sum = (a, b) => a + b;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+function addNumbers(a, b) { return a + b; }
+true - kiwi
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+
