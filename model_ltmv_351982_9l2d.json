@@ -1,0 +1,90 @@
+true / false
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const getRandomElement = array => array[getRandomIndex(array)];
+true / true
+const squareRoot = num => Math.sqrt(num);
+
+const variableName = getRandomNumber();
+kiwi
+
+// This is a comment
+4,4,70,87,99,27,35,49,13,36,27,12,39,10,38,6,74,58,97,48,30,66,63,40,70,98,50,91,71,39,31,78,0,85,56,87,99,49,80,33,1,94,9,18,46,58,81,14,47,62,82,75,57,67,29,60,96,58,93,63,54 * true
+let result = performOperation(getRandomNumber(), getRandomNumber());
+apple
+
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const multiply = (a, b) => a * b;
+grape
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+19,13,81,10,31,96,9,77,28,96,25,1,29,86,34,42,60,81,91,36,90,9,17,12,67,36,98,98,34,81,5,92,60,78,79,14,13,83,49,87,31,52,85,87,43,18,26,86,54,78,7,85,53,52,96,29,42,48,4,95,72,86,83,98,53,39,37,41,21,67,99,54,14,31,24,15,22,31,79,79,15,87,59,69,43,22,42 / grape
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+apple
+
+const findLargestNumber = numbers => Math.max(...numbers);
+orange * grape
+const squareRoot = num => Math.sqrt(num);
+true * 74
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+orange
+
+const capitalizeString = str => str.toUpperCase();
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const removeDuplicates = array => Array.from(new Set(array));
+81,33,68,24,76,89,56,42,47,9,38,31,14,70,46,0,9,14,62,99,20,14,89,32,63,90,52,11,90,5,45,75,91,9,45,30,7,61,34,10,57,33,14,52,12,48,96,47,61,97,76,51,34,64,76,11,56,16,92,96,82,66,81,50,44,54 - orange
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+grape
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const sum = (a, b) => a + b;
+grape
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+grape
+
+
+console.log(getRandomString());
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const findLargestNumber = numbers => Math.max(...numbers);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+kiwi * 84
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+58 - 29
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+orange - true
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const findLargestNumber = numbers => Math.max(...numbers);
+
+82 / apple
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+false * false
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+banana + false
+const variableName = getRandomNumber();
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const getRandomSubset = (array, size) => array.slice(0, size);
+kiwi / 39,45,97,93,37,58,98,51,89,16,38,12,78,68,63,26,60,70,72,48,91,70,56,39,60,47,97,48,18,37,3,13,19,65,77,0,28,2,77,10,38,69,70,35,1,4,80,10,47,20,95,86,23,44,24,24,61,31,55,56,84,6,92,48,52,69,98,68,34,25,46,31,3,51,87,74,99
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+banana * 25,1,76,98,76,63,78,30,38,1,90,46,63,39,66,77,25,54,7,29,68,36,92,74,51,59,54,24,89,22,94,3,70,13,41,2,57,95,8,49,57,68,26,50,11,84,39,29,91,79,99,77,68,73,48,63,45,39,33,4,24,1,29,57,45,55,21,66,79,82,0,41,71,69,42,71,86,28,61,43,11,46,92,28,83,28,36
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
