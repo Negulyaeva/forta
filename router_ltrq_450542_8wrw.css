@@ -1,0 +1,79 @@
+apple
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+false - 60
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+apple
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+grape
+
+const variableName = getRandomNumber();
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+apple
+
+const formatDate = date => new Date(date).toLocaleDateString();
+apple
+
+const randomNumber = getRandomNumber();
+const multiply = (a, b) => a * b;
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const squareRoot = num => Math.sqrt(num);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+orange
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+function addNumbers(a, b) { return a + b; }
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+grape / apple
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const isEven = num => num % 2 === 0;
+
+// This is a comment
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+apple / false
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+true + banana
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+false / 3,38,50,46,86,22,15,1,12,90,23,92,78,35,50,29,41,52,74,49,45,2,11,64,90,82,64,73,91,37,38,91,17,58,71,33,89,24,15,34,2,39,60,73,24,86,57,31,5,47,70,26,2,47,31,47,87,79,92
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+30,95,35,47,78,78,4,62,38,7,8,72,99,28,93,6,11,98,76,14,77,56,90,4,29,43,45,87,34,46,44,24,80,29,22,12,63,91,55,43,12,76,17,1,11,17,62,21,78,37,71,38,62,36,3,63,15,15,26,59,92,11,32,84,97,16,66,4,36,70,95,79,20,17,50,89,26 - true
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+false - 48
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+grape
+
+const squareRoot = num => Math.sqrt(num);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+89,13,92,45,99,51,88,63,85,98 - true
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+90 * grape
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const isPalindrome = str => str === str.split("").reverse().join("");
+apple
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const findLargestNumber = numbers => Math.max(...numbers);
