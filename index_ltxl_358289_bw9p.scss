@@ -1,0 +1,23 @@
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+26,63,13,38,7,26,50,63,34,76,27,13,61,47,8,15,81,11,43,15,12,27,74,69,64,93,57,87,39,84,62,72,68,69,32,73,59,17,17,79,99,60,0,45,64,29,58,85,98,71,63,91,0,41,56,4,41,50,71,25,73,69,57,68,19,80,63,89,48,20,10,7,84,65,1,25,51,11,71 + 28,84,4,55,85,39,20,40,33,55,77,75,83,38,21,40,7,56,16,42,33,6,79,84,17,79,9,12,35,72,65,46,26,56,63,66,69,29,20,22,46,0,5,42,90,37,67,81,32,49,69,26,45,45,22,5,88,70,62,60,57,49,74,90,34,80,20,1
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+grape / kiwi
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const findLargestNumber = numbers => Math.max(...numbers);
+const findLargestNumber = numbers => Math.max(...numbers);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+apple * kiwi
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+true + orange
+function addNumbers(a, b) { return a + b; }
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
